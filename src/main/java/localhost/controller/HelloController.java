@@ -12,10 +12,10 @@ public class HelloController {
 
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public String hello(
-			@RequestParam(required = false, defaultValue = "world") String username,
+			@RequestParam(required = false, defaultValue = "world") String user,
 			Model model
 	) {
-		model.addAttribute("username", username);
+		model.addAttribute("user", user);
 
 		return "hello";
 	}

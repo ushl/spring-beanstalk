@@ -1,6 +1,6 @@
 # Purpose
 
-A simple Spring starter template.
+A simple Spring application for AWS Beanstalk testing.
 
 # Requirements
 
